@@ -1,0 +1,38 @@
+{
+  "name": "@thias/navigation",
+  "version": "0.1.0",
+  "description": "A navigation layer designed to turn any website into a chat-first interface",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Siddarth Vijayanand",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repo.git"
+  },
+  "keywords": [
+    "ai",
+    "navigation",
+    "browser",
+    "automation",
+    "agents"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.2.2",
+    "dompurify": "^3.3.3",
+    "marked": "^17.0.4",
+    "preact": "^10.19.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/marked": "^5.0.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
